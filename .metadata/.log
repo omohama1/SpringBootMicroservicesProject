@@ -2402,3 +2402,15 @@ Java Model Exception: Java Model Status [EnableDiscoveryClient.java [in com.om.p
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 !SUBENTRY 1 org.eclipse.jdt.core 4 969 2022-06-05 10:31:30.915
 !MESSAGE EnableDiscoveryClient.java [in com.om.photoapp.api.accountmanagement [in src/main/java [in PhotoAppApiAccountManagement]]] does not exist
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-06-05 10:34:44.259
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2086)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
