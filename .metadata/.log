@@ -127,3 +127,15 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-04 21:39:52.525
 !MESSAGE executing callback sts4.classpath.BGEAGIOh SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-05 09:38:39.246
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.BGEAGIOh
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-05 09:38:39.247
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.BGEAGIOh
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-05 09:38:39.248
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-05 09:38:39.248
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.BGEAGIOh => OK
