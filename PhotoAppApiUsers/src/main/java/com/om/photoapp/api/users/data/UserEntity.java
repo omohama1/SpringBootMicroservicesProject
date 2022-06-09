@@ -56,6 +56,9 @@ public class UserEntity implements Serializable {
 	public String getUserId() {
 		return userId;
 	}
+	public void setPassword(String password) {
+		this.password= password;
+	}
 	public void setUserId(String userId) {
 		this.userId = userId;
 	}
