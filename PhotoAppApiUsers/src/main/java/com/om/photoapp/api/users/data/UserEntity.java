@@ -24,8 +24,6 @@ public class UserEntity implements Serializable {
 	private String lastName;
 	@Column(nullable=false,length=120,unique=true)
 	private String email;
-	@Column(nullable=false,length=50)
-	private String password;
 	@Column(nullable=false,unique=true)
 	private String userId;
 	@Column(nullable=false,unique=true)
@@ -56,9 +54,6 @@ public class UserEntity implements Serializable {
 	}
 	public String getUserId() {
 		return userId;
-	}
-	public void setPassword(String password) {
-		this.password= password;
 	}
 	public void setUserId(String userId) {
 		this.userId = userId;
