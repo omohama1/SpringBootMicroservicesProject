@@ -15,6 +15,7 @@ public class UserEntity implements Serializable {
 	private static final long serialVersionUID = -2215768465348176308L;
 	@Id
 	@GeneratedValue
+	@Column(name="id")
 	private long id;
 	
 	@Column(nullable=false,length=50)
